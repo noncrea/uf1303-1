@@ -1,14 +1,14 @@
 /* Marca de agua */
 
-.agua:before {
+.agua:after {
   position: fixed;
   content: '';
-  bottom: 2vh;
+  bottom: 6vh;
   right: 5vh;
   width: 56.77vh;
   height: 20vh;
-  opacity: 0.2;
-  background-image: url("../svg/w3c/css.svg");
+  opacity: 1;
+  background-image: url("../img/dacor.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat; }

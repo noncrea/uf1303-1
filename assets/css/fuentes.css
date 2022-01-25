@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&family=PT+Serif:wght@700&display=swap');
+
+/*font-family: 'Arvo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
+body {
+    font-size: 16px; font-family: "Open Sans", "Arial", "Verdana", "Helvetica", sans-serif;
+    color: darkblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arvo", "Arial", "Verdana", "Helvetica", serif;
+    color: brown;
+    text-transform: capitalize;
+}
+
+h1 {font-size: 1.6em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.4em;}
+h4 {font-size: 1.3em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.1em;}
+
+h2,
+strong {
+    color: gray;
+}
+
+h3 href {
+    color: darkgreen;
+    font-stretch: expanded
+}
+
+figcaption {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.2em;
+}
