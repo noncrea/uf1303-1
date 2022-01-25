@@ -1,5 +1,7 @@
 /* Marca de agua */
 
+body {padding: 2vw;background-color: lightgrey;}
+section header {padding: 0;}
 .agua:after {
   position: fixed;
   content: '';
@@ -39,3 +41,4 @@ header.portada h2 {
     background-color: rgba(0,0,0, 0.6);
     color: #ffffff;
 }
+.nota {padding: 1vw 2vw;background-color: rgba(255, 255, 255, 0.65);border: 1px solid;border-color: crimson;border-radius: 15px;}

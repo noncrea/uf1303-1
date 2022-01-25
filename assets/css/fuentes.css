@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&family=PT+Serif:wght@700&display=swap');
 
-/*font-family: 'Arvo', serif;
+/* TIPO DE TEXTO font-family: 'Arvo', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'PT Serif', serif;*/
 body {
-    font-size: 16px; font-family: "Open Sans", "Arial", "Verdana", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-family: "Open Sans", "Arial", "Verdana", "Helvetica", sans-serif;
     color: darkblue;
 }
 
@@ -15,32 +16,60 @@ h4,
 h5,
 h6 {
     font-family: "Arvo", "Arial", "Verdana", "Helvetica", serif;
-    color: brown;
+    color: rgb(0, 123, 71);
     text-transform: capitalize;
 }
 
-h1 {font-size: 1.6em;}
-h2 {font-size: 1.5em;}
-h3 {font-size: 1.4em;}
-h4 {font-size: 1.3em;}
-h5 {font-size: 1.2em;}
-h6 {font-size: 1.1em;}
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
 
 h2,
 strong {
-    color: gray;
+    color: firebrick;
 }
 
+/* MODIFICACION DE LO DE LAS "A", que no entendia yo el enunciado
 h3 href {
-    color: darkgreen;
-    font-stretch: expanded
+    color: purple;
+    font-stretch: expanded*/
 }
 
+a {
+    color: purple;
+    font-weight: bold;
+}
+
+/*medidas relativas a contenedor en vez de escala de "em"
 figcaption {
     font-size: 0.6em;
+    font-style: italic;
+}*/
+figcaption {
+    font-size: small;
     font-style: italic;
 }
 
 p {
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
